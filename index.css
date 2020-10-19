@@ -1,0 +1,205 @@
+/*Common elements*/
+
+body {
+  font-size: 67.5%;
+  font-family: verdana, sans-serif;
+  background:  url("image/ScrabbleTiles.jpg")  no-repeat fixed top center;
+  background-color: rgb(241, 221, 166);
+  padding: 0;
+  margin: 0;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  color: darkslategrey;
+  padding: 0;
+  margin: 0px 0.5em 0.75em 0px;
+}
+a, a:visited {
+  color: rgb(12, 25, 145);
+}
+a:hover {
+  color: rgb(212, 24, 61);
+}
+/*Header*/
+.header {
+  margin: 0 auto;
+  width: 100%;
+  height: 150px;
+  padding: 0 3.5em;
+  position: relative;
+  display: inline-flex;
+}
+
+li {
+  margin-top: 6px;
+  font-size: 10px;
+  max-width: 30px;
+  max-height: 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-flex;
+}
+h1 {
+  color: rgb(45, 45, 170);
+  font-size: 2rem;
+  margin: 0.5em 0 0.5em 0;
+  padding: 0;
+  margin-top: 50px;
+}
+h1 img {
+  max-width: 30pt;
+  max-height: 30pt;
+}
+div.dropdown {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  display: inline-flex;
+  text-align: center;
+  height: auto;
+  z-index: 5;
+}
+.navbuttons {
+  position: relative;
+  display: inline-flex;
+  margin: 0 30px;
+}
+.dropbtn {
+  background-color: rgb(45, 45, 170);
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  max-height: 40px;
+  border: none;
+  border-radius: 25%;
+  margin-top: 0;
+  display: inline-block;
+  overflow: visible;
+}
+.dropdown-content {
+  margin: 5px;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  top: 40px;
+}
+.dropdown-content a {
+  color: rgb(16, 208, 241);
+  padding: 12px;
+  font-size: 13pt;
+  text-decoration: none;
+  display: block;
+}
+.searchbar{
+  float: right;
+  margin-right: 15%;
+  position: relative;
+  display: inline-flex;
+}
+.loginbutton
+.dropdown-content a:hover {background-color: #ddd;}
+
+.navbuttons:hover .dropdown-content {display: block;}
+
+.navbuttons:hover .dropbtn {background-color: rgb(16, 208, 241);}
+
+/*Nav Bars*/
+
+.loginbutton {
+  float: right;
+  margin-right: 5%;
+  margin-top: 120px;
+}
+div.loginbutton button img {
+  max-width: 20px;
+  max-height: 20px;
+}
+
+
+/*Main Section*/
+*{box-sizing: border-box;}
+div.main {
+  position: relative;
+  width: 650px;
+  height: 1200px;
+  float: left;
+  padding: 75px;
+}
+div.promo {
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+  top: 50%;
+  left: 50%;
+}
+div.panel {
+  width: 650px;
+  height: 520px;
+  margin-top: 25px;
+  padding: 15px;
+  display: inline-block;
+  background-color: white;
+}
+div.products {
+  position: relative;
+  display: inline-block;
+  max-height: 150px;
+  max-width: 150px;
+}
+div.panel .products {
+  width: 150px;
+  margin: 25px;
+  text-align: center;
+}
+
+/*Sidebar Section*/
+section#sidebar {
+  width: 238px;
+  float: right;
+  right: 75px;
+  top: 58px;
+  position: relative;
+  display: block;
+  background-color: #ffffff;
+  margin: 1.5em 0 3.0em 1.5em;
+  padding: 1.7em 0.5em 2.0em 1.7em;
+  border: 5px solid rgb(45, 45, 170);
+  text-align: center;
+}
+section#sidebar img {
+  max-height: 150px;
+  max-width: 150px;
+}
+
+/*Footer*/
+footer {
+  background-color: rgb(45, 45, 170);
+  width: 100%;
+  display: inline-block;
+  bottom: 0;
+  height: 126px;
+}
+footer.img {
+  width: 100%;
+  margin: 0 auto;
+  z-index: 3;
+}
+footer p {
+  float: left;
+  padding: 5px 0 0 15px;
+  color: whitesmoke;
+}
+
+div.subscribe {
+  float: right;
+  padding: 0 15px 5px 0;
+}
